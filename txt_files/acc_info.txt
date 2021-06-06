@@ -1,0 +1,3 @@
+id: none
+pw: none
+# iki noktadan sonra (:) boşluk bırakmayı unutmayınız.
