@@ -12,8 +12,6 @@ class Instagram:
         self.id, self.password = None, None
         self.followers = []
         self.following = []
-        self.alph = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't',
-                     'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '_', '.']
         self.instagram_link = "https://www.instagram.com/" + self.user
 
     def start_driver(self):
