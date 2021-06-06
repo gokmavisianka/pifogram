@@ -155,22 +155,3 @@ class Instagram:
 
     def quit(self):
         self.driver.quit()
-
-
-# ---------------------------------------------------------------------- #
-Instagram = Instagram(input("Verileri çekmek istediğiniz Instagram kullanıcısının adını giriniz: "))
-
-Filter = Filter()
-Instagram.start_driver()
-Instagram.go_to_instagram()
-Instagram.login()
-
-Instagram.get_followers_and_following()
-Filter.write()
-Instagram.update()
-Instagram.save_all_info()
-print("Görev başarıyla tamamlandı! Çıkış yapılıyor...")
-Instagram.delay(2)
-Instagram.quit()
-
-# ---------------------------------------------------------------------- #
